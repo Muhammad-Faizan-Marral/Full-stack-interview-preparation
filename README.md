@@ -32,6 +32,8 @@ The goal is to build a well-organized knowledge base covering frontend, backend,
 
 ---
 
+
+
 # 📂 Repository Structure
 
 Each topic has its own folder containing:
