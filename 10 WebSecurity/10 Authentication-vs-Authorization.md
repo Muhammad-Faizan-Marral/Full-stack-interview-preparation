@@ -1,0 +1,3 @@
+### Q. What's the difference between authentication and authorization?
+**Answer:**
+"**Authentication** verifies WHO the user is — e.g., logging in with email/password, verified via JWT. **Authorization** determines WHAT that authenticated user is allowed to do — e.g., checking if a user has the 'Artist' role before letting them upload a track in SoundWave. I always check authorization server-side, on every protected route — never relying on the frontend hiding a button, since a client-side hidden button doesn't stop a direct API call."
