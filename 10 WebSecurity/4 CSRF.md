@@ -1,4 +1,4 @@
-### Q46. What is CSRF (Cross-Site Request Forgery) and how is it different from XSS?
+### Q. What is CSRF (Cross-Site Request Forgery) and how is it different from XSS?
 **Answer:**
 "XSS injects malicious code INTO your site. CSRF tricks a logged-in user's browser into sending an unwanted request TO your site from a different site — e.g., a malicious page auto-submits a form to `yourbank.com/transfer` using the victim's existing session cookies."
 

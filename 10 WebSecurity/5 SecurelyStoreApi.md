@@ -1,0 +1,3 @@
+## Q. How do you securely store and manage secrets (API keys, DB credentials)?
+**Answer:**
+### "I never hardcode secrets in the codebase. I use environment variables (`.env` files, excluded from Git via `.gitignore`) locally, and platform-level secret managers in production — like Vercel/Railway environment variables, or AWS Secrets Manager / HashiCorp Vault for larger systems. I also rotate keys periodically and use different credentials for development, staging, and production environments."
