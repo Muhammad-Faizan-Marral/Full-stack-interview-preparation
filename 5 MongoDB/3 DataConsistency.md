@@ -102,8 +102,11 @@ db.users.insertOne(
   }
 );
 ```
+`w: 1` means Primary server need to acknowledges.
 
 `w: "majority"` means MongoDB acknowledges the write only after it has been replicated to the majority of replica set members.
+
+`w: 0` means no acknowledgment is requried
 
 Higher write concern improves data consistency but may slightly increase write latency.
 
@@ -117,9 +120,9 @@ Different read concerns provide different consistency guarantees.
 
 Common options include:
 
-- `local`
-- `majority`
-- `linearizable`
+- `local` : when you have to read from primary server.
+- `majority` : 
+- `linearizable`:Reading the data from any node that is available even if it might not bi updated.
 
 Using `majority` ensures the client reads data that has already been confirmed by the majority of replica set members.
 
