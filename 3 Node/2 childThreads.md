@@ -124,4 +124,4 @@ This architecture makes Node.js lightweight and scalable.
 - It uses **libuv's thread pool** to handle many asynchronous I/O operations.
 - **Worker Threads** are available for CPU-intensive JavaScript tasks.
 - The **Event Loop** coordinates completed background tasks and executes their callbacks.
-- Node.js does **not** create a new thread for every client request, which helps it efficiently handle thousands of concurrent connections.
+- Node.js does **not** create a new thread for every client request, which helps it efficiently handle thousands of concurrent connections
