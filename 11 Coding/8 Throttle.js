@@ -15,6 +15,4 @@ function throttle(callback, delay) {
 
 const handleScroll = throttle(()=>{console.log("Scrolling. . .")} ,2000);
 handleScroll()
-    handleScroll()
-    handleScroll()
-    handleScroll()
+  
